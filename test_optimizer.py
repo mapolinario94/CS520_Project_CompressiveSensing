@@ -29,7 +29,7 @@ yt = yt.reshape(-1, 1)
 
 
 # ###############################
-# Test the optimizer
+# Test the optimizer === x, _ = optimizer(y, A, ...)
 # ###############################
 
 x, _ = GPSR_Basic(y=y2, A=A, tau=np.array([0.08]))
