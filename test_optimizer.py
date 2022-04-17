@@ -6,6 +6,8 @@ import scipy.fftpack as spfft
 # Import optimizer
 # #################
 from optimizers.gpsr_basic import GPSR_Basic
+from optimizers.spaRSA import spaRSA
+from optimizers.OMP import omp
 # ##################
 
 # Create an example for signal reconstruction
@@ -32,8 +34,9 @@ yt = yt.reshape(-1, 1)
 # Test the optimizer === x, _ = optimizer(y, A, ...)
 # ###############################
 
-x, _ = GPSR_Basic(y=y2, A=A, tau=np.array([0.08]))
-
+# x, _ = GPSR_Basic(y=y2, A=A, tau=np.array([0.08]))
+# x, yhat = spaRSA(A, y2, tau=np.array([0.08]))
+x, _, _, _, _ = omp(A, y2, nonneg=False)
 # ###############################
 
 x = np.squeeze(x)
