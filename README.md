@@ -4,7 +4,7 @@
 Chenyang Cao, Jun He, Marco Apolinario, Tewbesta Alemayehu
 
 ## Abstract:
-In this final report to group project of course CS 520 at Purdue University, we investigated a few algorithms in the field of compressed sensing (CS) [2, 3, 6, 10] including orthogonal matching pursuit (OMP), tree-based OMP [7, 9], Gradient Projection for Sparse Reconstruction (GPSR) [4], Separable Approximation (SpaRSA)[11]. These algorithms are well-developed for an $\ell_1$-optimization problem proposed by compressed sensing. We will introduce the details of these algorithms and present some applications and examples in practice by using these algorithms.  Next, we implement them from scratch and compare the results in each example among these algorithms to see which algorithm suits the example properly. Finally, we discuss some conclusions of the project.
+In this final report to group project of course CS 520 at Purdue University, we investigated a few algorithms in the field of compressed sensing (CS) [2, 3, 6, 10] including orthogonal matching pursuit (OMP), tree-based OMP [7, 9], Gradient Projection for Sparse Reconstruction (GPSR) [4], Separable Approximation (SpaRSA)[11]. These algorithms are well-developed for an l_1-optimization problem proposed by compressed sensing. We will introduce the details of these algorithms and present some applications and examples in practice by using these algorithms.  Next, we implement them from scratch and compare the results in each example among these algorithms to see which algorithm suits the example properly. Finally, we discuss some conclusions of the project.
 
 
 ## References:
